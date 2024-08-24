@@ -1,0 +1,617 @@
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇭🇰 香港, server: 183.238.90.3, port: 40890, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港2, server: 6bhz.6bnw.top, port: 36993, type: ss, cipher: chacha20-ietf-poly1305, password: cefe8a8f-7d88-4973-bcd2-fbf023d5e1c8, udp: true}
+  - {name: 🇭🇰 香港3, server: hk1.juelaohai.us.kg, port: 10000, type: trojan, password: 88242522-45be-49d3-af70-ae72c7f1a11a, sni: hk1.juelaohai.us.kg, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港4, server: 183.232.139.24, port: 51017, type: trojan, password: llyEnxJlVC, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港5, server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港6, server: 6bhz.6bnw.top, port: 29527, type: ss, cipher: chacha20-ietf-poly1305, password: cefe8a8f-7d88-4973-bcd2-fbf023d5e1c8, udp: true}
+  - {name: 🇭🇰 香港7, server: iepl2.airtcp.vip, port: 51000, type: vmess, uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾, server: 59.124.90.154, port: 32495, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.freenods.sbs}}, udp: true}
+  - {name: 🇨🇳 台湾2, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: b0ad2482-c734-4ffc-9584-8c018cf6cc9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+  - {name: 🇨🇳 台湾3, server: 6bhz.6bnw.top, port: 32207, type: ss, cipher: chacha20-ietf-poly1305, password: cefe8a8f-7d88-4973-bcd2-fbf023d5e1c8, udp: true}
+  - {name: 🇯🇵 日本, server: 6bhz.6bnw.top, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: cefe8a8f-7d88-4973-bcd2-fbf023d5e1c8, udp: true}
+  - {name: 🇯🇵 日本2, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: b0ad2482-c734-4ffc-9584-8c018cf6cc9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/VDXcaM7r, headers: {Host: GWYp69Yujp2.yofnhkfc.xyz}}, udp: true}
+  - {name: 🇯🇵 日本3, server: cnah2.lanyunshi.top, port: 10009, type: vmess, uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡, server: 6bhz.6bnw.top, port: 39505, type: ss, cipher: chacha20-ietf-poly1305, password: cefe8a8f-7d88-4973-bcd2-fbf023d5e1c8, udp: true}
+  - {name: 🇺🇸 美国, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.dtku47.xyz}}, udp: true}
+  - {name: 🇺🇸 美国2, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: b0ad2482-c734-4ffc-9584-8c018cf6cc9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/QXjZG5u4F2, headers: {Host: us3AJ8biuQx.fzbqfrse.xyz}}, udp: true}
+  - {name: 🇺🇸 美国3, server: zzh2.gouersu.top, port: 47084, type: ss, cipher: aes-256-gcm, password: 2affd0c1-a5b4-4c1c-8800-fb2f866626e7, udp: true}
+  - {name: 🇺🇸 美国5, server: 104.26.0.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}, udp: true}
+  - {name: 🇻🇳 越南, server: 59.56.77.225, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+  - {name: 🇯🇵 日本R, server: 59.56.77.225, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+  - {name: 🇯🇵 日本特殊, server: 43.201.254.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 狮城特殊, server: 3.112.220.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇰🇷 韩国特殊, server: 52.197.108.167, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇭🇰 香港 2, server: mmhk01.micloud.buzz, port: 46001, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmhk01.micloud.buzz}}, udp: true}
+  - {name: 🇭🇰 香港2 2, server: gg01.6bnw.top, port: 40023, type: ss, cipher: chacha20-ietf-poly1305, password: 713366e0-20b8-4d5d-be5d-988317e086c7, udp: true}
+  - {name: 🇭🇰 香港3 2, server: aa01gg.sssyun.xyz, port: 19527, type: ss, cipher: chacha20-ietf-poly1305, password: 713366e0-20b8-4d5d-be5d-988317e086c7, udp: true}
+  - {name: 🇭🇰 香港4 2, server: 183.232.139.24, port: 51017, type: trojan, password: llyEnxJlVC, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港5 2, server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港6 2, server: mmhk01.micloud.buzz, port: 46001, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmhk01.micloud.buzz}}, udp: true}
+  - {name: 🇨🇳 台湾 2, server: aa01gg.sssyun.xyz, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: 713366e0-20b8-4d5d-be5d-988317e086c7, udp: true}
+  - {name: 🇯🇵 日本 2, server: 183.232.139.24, port: 51012, type: trojan, password: yEnxJlVC, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本3 2, server: mmjp11.micloud.buzz, port: 46011, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmjp11.micloud.buzz}}, udp: true}
+  - {name: 🇯🇵 日本2 2, server: aa01gg.sssyun.xyz, port: 49207, type: ss, cipher: chacha20-ietf-poly1305, password: 713366e0-20b8-4d5d-be5d-988317e086c7, udp: true}
+  - {name: 🇯🇵 日本4, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: 9a403efc-18d7-4a78-8532-fb15541ef836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}, udp: true}
+  - {name: 🇯🇵 日本5, server: mmjp11.micloud.buzz, port: 46011, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmjp11.micloud.buzz}}, udp: true}
+  - {name: 🇰🇷 韩国, server: aa01gg.sssyun.xyz, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: 713366e0-20b8-4d5d-be5d-988317e086c7, udp: true}
+  - {name: 🇸🇬 新加坡 2, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 9a403efc-18d7-4a78-8532-fb15541ef836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}, udp: true}
+  - {name: 🇸🇬 新加坡2, server: aa01gg.sssyun.xyz, port: 39204, type: ss, cipher: chacha20-ietf-poly1305, password: 713366e0-20b8-4d5d-be5d-988317e086c7, udp: true}
+  - {name: 🇺🇸 美国 2, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.dtku47.xyz}}, udp: true}
+  - {name: 🇺🇸 美国2 2, server: cfcdn1.sanfencdn9.com, port: 2086, type: vmess, uuid: 9a403efc-18d7-4a78-8532-fb15541ef836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}, udp: true}
+  - {name: 🇺🇸 美国5 2, server: 104.26.0.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}, udp: true}
+  - {name: 🇯🇵 日本特殊 2, server: 52.194.250.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇰🇷 韩国特殊 2, server: 13.229.243.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 狮城特殊 2, server: 13.214.209.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇩🇪 德国, server: mmde92.micloud.buzz, port: 46092, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmde92.micloud.buzz}}, udp: true}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - 🔯 香港故转
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🇺🇲 美国节点
+      - 🌐 其他地区
+      - 🏡 家宽节点
+      - 🛩️ 高速节点
+      - 🕊️便宜节点
+      - 🐸 手动切换
+      - DIRECT
+  - name: 📹 YouTube
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🔯 香港故转
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🇺🇲 美国节点
+      - 🛩️ 高速节点
+      - 🐸 手动切换
+      - DIRECT
+  - name: 🤖 AI
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 日本故转
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🇭🇰 香港节点
+      - 🏡 家宽节点
+      - 🐸 手动切换
+  - name: 💧 Copilot
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - ⭐ 日本故转
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇸🇬 加坡节点
+      - 🏡 家宽节点
+      - 🐸 手动切换
+  - name: 🐬 OneDrive
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 日本故转
+      - 🔯 香港故转
+      - 🔯 加坡故转
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🇯🇵 日本节点
+      - 🇭🇰 香港节点
+      - 🇸🇬 加坡节点
+      - 🇺🇲 美国节点
+      - 🛩️ 高速节点
+      - 🐸 手动切换
+      - DIRECT
+  - name: 🪟 Microsoft
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 日本故转
+      - 🔯 香港故转
+      - 🔯 加坡故转
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🇯🇵 日本节点
+      - 🇭🇰 香港节点
+      - 🇸🇬 加坡节点
+      - 🇺🇲 美国节点
+      - 🛩️ 高速节点
+      - 🐸 手动切换
+      - DIRECT
+  - name: 🍀 Google
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 香港故转
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🇺🇲 美国节点
+      - 🛩️ 高速节点
+      - 🐸 手动切换
+      - DIRECT
+  - name: 👨🏿‍💻 GitHub
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 香港故转
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🇺🇲 美国节点
+      - 🛩️ 高速节点
+      - 🐸 手动切换
+      - DIRECT
+  - name: 🍎 Apple
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🇺🇲 美国节点
+      - 🐸 手动切换
+      - 🚀 节点选择
+  - name: ♻️ Speedtest
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🇺🇲 美国节点
+      - 🐸 手动切换
+      - 🚀 节点选择
+  - name: 🎵 TikTok
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - ⭐ 日本故转
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🛩️ 高速节点
+      - 🐸 手动切换
+  - name: 🎥 Netflix
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 香港故转
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🛩️ 高速节点
+      - 🎥 奈飞节点
+      - 🐸 手动切换
+  - name: 📲 Telegram
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 香港故转
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🐸 手动切换
+  - name: 📢 FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 香港故转
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🐸 手动切换
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 香港故转
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🛩️ 高速节点
+      - 🐸 手动切换
+      - DIRECT
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🔯 香港故转
+      - 🔯 日本故转
+      - 🔯 加坡故转
+      - ⭐ 香港故转
+      - ⭐ 日本故转
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🛩️ 高速节点
+      - 🐸 手动切换
+  - name: 🎞️ 国内媒体
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🐸 手动切换
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🐸 手动切换
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🆎 AdBlock
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🛡️ 隐私防护
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 加坡节点
+      - 🐸 手动切换
+  - name: 🐸 手动切换
+    type: select
+    proxies:
+      - 🇭🇰 香港
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇭🇰 香港6
+      - 🇭🇰 香港7
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇯🇵 日本
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5
+      - 🇻🇳 越南
+      - 🇯🇵 日本R
+      - 🇯🇵 日本特殊
+      - 🇸🇬 狮城特殊
+      - 🇰🇷 韩国特殊
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港6 2
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本3 2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇰🇷 韩国
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡2
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国2 2
+      - 🇺🇸 美国5 2
+      - 🇯🇵 日本特殊 2
+      - 🇰🇷 韩国特殊 2
+      - 🇸🇬 狮城特殊 2
+      - 🇩🇪 德国
+  - name: 🏡 家宽节点
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🛩️ 高速节点
+    type: select
+    proxies:
+      - 🇭🇰 香港
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇭🇰 香港6
+      - 🇭🇰 香港7
+      - 🇯🇵 日本
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本R
+      - 🇯🇵 日本特殊
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港6 2
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本3 2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇯🇵 日本特殊 2
+  - name: 🕊️便宜节点
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🇭🇰 香港节点
+    type: select
+    proxies:
+      - 🇭🇰 香港
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇭🇰 香港6
+      - 🇭🇰 香港7
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港6 2
+  - name: 🇯🇵 日本节点
+    type: select
+    proxies:
+      - 🇯🇵 日本
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本R
+      - 🇯🇵 日本特殊
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本3 2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇯🇵 日本特殊 2
+  - name: 🇸🇬 加坡节点
+    type: select
+    proxies:
+      - 🇸🇬 新加坡
+      - 🇸🇬 狮城特殊
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡2
+      - 🇸🇬 狮城特殊 2
+  - name: 🇺🇲 美国节点
+    type: select
+    proxies:
+      - 🇺🇸 美国
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国2 2
+      - 🇺🇸 美国5 2
+  - name: 🌐 其他地区
+    type: select
+    proxies:
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇺🇸 美国
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5
+      - 🇻🇳 越南
+      - 🇰🇷 韩国特殊
+      - 🇨🇳 台湾 2
+      - 🇰🇷 韩国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国2 2
+      - 🇺🇸 美国5 2
+      - 🇰🇷 韩国特殊 2
+      - 🇩🇪 德国
+  - name: 🔯 香港故转
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇭🇰 香港6
+      - 🇭🇰 香港7
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港6 2
+  - name: 🔯 日本故转
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇯🇵 日本
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本R
+      - 🇯🇵 日本特殊
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本3 2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇯🇵 日本特殊 2
+  - name: 🔯 加坡故转
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 新加坡
+      - 🇸🇬 狮城特殊
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡2
+      - 🇸🇬 狮城特殊 2
+  - name: ⭐ 香港故转
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港6 2
+  - name: ⭐ 日本故转
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本3 2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇯🇵 日本特殊 2
+  - name: 🍃 香港均衡
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇭🇰 香港6
+      - 🇭🇰 香港7
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港6 2
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇭🇰 香港6
+      - 🇭🇰 香港7
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇯🇵 日本
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5
+      - 🇻🇳 越南
+      - 🇯🇵 日本R
+      - 🇯🇵 日本特殊
+      - 🇸🇬 狮城特殊
+      - 🇰🇷 韩国特殊
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港6 2
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本3 2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本4
+      - 🇯🇵 日本5
+      - 🇰🇷 韩国
+      - 🇸🇬 新加坡 2
+      - 🇸🇬 新加坡2
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国2 2
+      - 🇺🇸 美国5 2
+      - 🇯🇵 日本特殊 2
+      - 🇰🇷 韩国特殊 2
+      - 🇸🇬 狮城特殊 2
+      - 🇩🇪 德国
+  - name: 🎥 奈飞节点
+    type: select
+    proxies:
+      - DIRECT
+rules:
+  - GEOSITE,CN,🎯 全球直连
+  - GEOSITE,geolocation-!cn,🚀 节点选择
+  - GEOIP,CN,🎯 全球直连,no-resolve
+  - MATCH,🐟 漏网之鱼
