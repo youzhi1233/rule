@@ -18,6 +18,7 @@ proxies:
   - {name: 🇺🇸 fh美国3, server: 38.114.114.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, tfo: false}
   - {name: 🇰🇷 fh韩国特殊, server: 54.249.192.248, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇯🇵 fh日本5, server: 18.183.36.223, port: 443, client-fingerprint: chrome, type: trojan, password: 0b0387b8-5258-386b-8744-dcacb2320d94, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true}
+  - {name: 🇺🇸 fh美国+v2rayfree.eu.org, server: 139.64.165.153, port: 6697, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false}
   
 proxy-groups:
   - name: 🚀 节点选择
