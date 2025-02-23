@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,meihang.uk
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,fuh
+DOMAIN-KEYWORD,cloudflare
 
 # IP段匹配
 IP-CIDR,192.168.123.0/24,no-resolve
