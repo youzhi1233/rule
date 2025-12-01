@@ -3,11 +3,18 @@
 # 国外域名关键字
 
 DOMAIN-SUFFIX,browserleaks.com
-DOMAIN-SUFFIX,youtube.com
+
 DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleapis.com       # Google API服务
+DOMAIN-SUFFIX,gstatic.com          # 静态资源
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,ggpht.com            # 图片托管
+
+DOMAIN-SUFFIX,youtube.com          # YouTube
+DOMAIN-SUFFIX,ytimg.com            # YouTube资源
+DOMAIN-SUFFIX,gmail.com            # Gmail
+DOMAIN-SUFFIX,googlemail.com
+
 DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,t66y.com
