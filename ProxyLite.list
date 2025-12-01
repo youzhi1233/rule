@@ -15,9 +15,13 @@ DOMAIN-SUFFIX,ytimg.com            # YouTube资源
 DOMAIN-SUFFIX,gmail.com            # Gmail
 DOMAIN-SUFFIX,googlemail.com
 
-DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,github.io               # GitHub Pages
+DOMAIN-SUFFIX,githubassets.com        # 静态资源（CSS/JS/图片）
+DOMAIN-SUFFIX,githubusercontent.com   # Raw 文件、用户上传内容
+DOMAIN-SUFFIX,raw.githubusercontent.com  # Raw 文件访问
+
+DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,t66y.com
 
 DOMAIN-KEYWORD,github
