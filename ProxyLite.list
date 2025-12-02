@@ -2,10 +2,15 @@
 
 # 国外域名关键字
 
+DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,docker
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,youtube
+
 DOMAIN-SUFFIX,browserleaks.com
 
 DOMAIN-SUFFIX,google.com.hk
-DOMAIN-SUFFIX,googleapis.com
+# DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com    
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,ggpht.com           
@@ -24,7 +29,4 @@ DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,t66y.com
 
-DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,docker
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,youtube
+
