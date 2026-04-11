@@ -11,8 +11,8 @@ DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,docker
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,browserleaks
 
-DOMAIN-SUFFIX,browserleaks.com
 
 DOMAIN-SUFFIX,google.com.hk
 # DOMAIN-SUFFIX,googleapis.com
