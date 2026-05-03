@@ -13,7 +13,6 @@ DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,browserleaks
 
-
 DOMAIN-SUFFIX,google.com.hk
 # DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com    
@@ -37,3 +36,5 @@ DOMAIN-SUFFIX,rmdown.com
 DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
